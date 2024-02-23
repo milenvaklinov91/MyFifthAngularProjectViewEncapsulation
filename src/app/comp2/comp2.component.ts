@@ -1,13 +1,13 @@
 import { Component, ViewEncapsulation } from '@angular/core';
 
 @Component({
-  selector: 'app-root',
-  templateUrl: './app.component.html',
-  styleUrl: './app.component.css'
-  // encapsulation: ViewEncapsulation.None
+  selector: 'app-comp2',
+  templateUrl: './comp2.component.html',
+  styleUrl: './comp2.component.css',
+  encapsulation: ViewEncapsulation.ShadowDom
 })
-export class AppComponent {
-  title = 'MyFifthAngularProjectViewEncapsulation';
+export class Comp2Component {
+
 }
 
 // There are 3 types of View Encapsulation :
